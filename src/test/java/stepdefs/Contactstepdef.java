@@ -29,7 +29,7 @@ public class Contactstepdef extends TestBase{
 	}
 	@Then("Navigate to contact page")
 	public void Enter_Login_page()  throws Throwable{
-	   
+	   System.out.println("Navigate");
 	}
 	@And("user click to contact page")
 	public void close_the_browser()  throws Throwable{
